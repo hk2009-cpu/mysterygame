@@ -16,10 +16,29 @@
         <figcaption>Uncle's living room</figcaption>
      </figure>
         <br>
-   <p>Something can be seen behind the couch</p>
+         <script src="game.js"></script>
+  
+
+   
+    <section>
+ <p>Something can be seen behind the couch</p>
 <button onclick="addItem('ghost')">grab it</button>
+  <div data-needs="ghost">
+    <p>It's a ghost! And it looks like it isn't leaving you alone anytime soon!</p>
+    <a href="bathroom.html"><button>continue</button></a>
+ </div>
 
-    <script src="game.js"></script>
+       <div data-missing="ghost">
+    <p>The door is locked. You need something to open this.</p>
+    <a href="index.html"><button>try again</button></a>
 
+ 
+ 
+  </div>
+
+
+</section>
+
+ 
 </body>
 </html>

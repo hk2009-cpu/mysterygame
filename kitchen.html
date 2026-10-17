@@ -16,9 +16,24 @@
         <figcaption>Uncle's kitchen</figcaption>
      </figure>
         <br>
-    <a href="rustcleaner.html"><button>The Reliable and Kindhearted Rust Cleaner</button></a>
+        <button onclick="addItem('clean crowbar')">grab rust cleaner</button>
+
+  
     <a href="towel.html"><button>The Devious and Irresponsible Stained Towel</button></a>
      <script src="game.js"></script>
+<section>
+
+  <div data-needs="clean crowbar">
+    <p>The rust cleaner does a good job of getting the rust off.</p>
+    <a href="garage.html"><button>continue</button></a>
+  </div>
+
+ <div data-missing="clean crowbar">
+    <p>Use the rust cleaner.</p>
+  </div>
+
+
+</section>
 
 </body>
 </html>
